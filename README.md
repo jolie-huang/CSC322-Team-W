@@ -12,7 +12,7 @@
 <h3 align="center">SocialPulse</h3>
 
   <p align="center">
-    <b>SocialPulse</b> is a <b>Social Media Platform</b> with main purpose to <b>Connect</b> people around the globe.<b>SocialPulse</b> is a social media platform where people can communicate with each other in real-time, create and share posts, and create networks such as group chats with each other. <b>SocialPulse</b> is appealing because it is simple to use without any unnecessary features and thus make it straightforward for the users to <b>Connect</b> with each other. Moreover, the proposed software is special because it implements a real-time chat feature that enables users to chat inside the web application without the need to download any external software such as a messenger.
+    <b>SocialPulse</b> is a <b>Social Media Platform</b> with main purpose to <b>Connect</b> people around the globe. <b>SocialPulse</b> is a social media platform where people can communicate with each other in real-time, create and share posts, and create networks such as group chats with each other. <b>SocialPulse</b> is appealing because it is simple to use without any unnecessary features and thus make it straightforward for the users to <b>Connect</b> with each other. Moreover, the proposed software is special because it implements a real-time chat feature that enables users to chat inside the web application without the need to download any external software such as a messenger.
     <br />
     <a href="https://github.com/GeorgiosIoannouCoder/socialpulse"><strong>Explore the docs »</strong></a>
     <br />
