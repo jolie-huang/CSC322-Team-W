@@ -1,22 +1,17 @@
-# CSC322-Team-W
 <a name="readme-top"></a>
 
-# [SocialPulse](https://socialpulse-9a2adcafece8.herokuapp.com/popular) | Social Media Platform
+# [SocialPulse](https://socialpulse-9a2adcafece8.herokuapp.com/) | Social Media Platform
 
 <br />
 <div align="center">
-  <a href="https://socialpulse-9a2adcafece8.herokuapp.com/popular">
+  <a href="https://socialpulse-9a2adcafece8.herokuapp.com/">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">SocialPulse</h3>
 
   <p align="center">
-    <b>SocialPulse</b> is a <b>Social Media Platform</b> with main purpose to <b>Connect</b> people around the globe. <b>SocialPulse</b> is a social media platform where people can communicate with each other in real-time, create and share posts, and create networks such as group chats with each other. <b>SocialPulse</b> is appealing because it is simple to use without any unnecessary features and thus make it straightforward for the users to <b>Connect</b> with each other. Moreover, the proposed software is special because it implements a real-time chat feature that enables users to chat inside the web application without the need to download any external software such as a messenger.
-    <br />
-    <br />
-    <br />
-    <a href="https://socialpulse-9a2adcafece8.herokuapp.com/popular">View Web Application</a>
+    <b>SocialPulse</b> is a <b>Social Media Platform</b> with main purpose to <b>Connect</b> people around the globe.<b>SocialPulse</b> is a social media platform where people can communicate with each other in real-time, create and share posts, and create networks such as group chats with each other. <b>SocialPulse</b> is appealing because it is simple to use without any unnecessary features and thus make it straightforward for the users to <b>Connect</b> with each other. Moreover, the proposed software is special because it implements a real-time chat feature that enables users to chat inside the web application without the need to download any external software such as a messenger.
   </p>
 </div>
 
@@ -41,13 +36,12 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 ## About The Project
 
-<a href="https://socialpulse-9a2adcafece8.herokuapp.com/popular">
+<a href="https://socialpulse-9a2adcafece8.herokuapp.com/">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -80,6 +74,7 @@
 21. **Ability to deposit/withdraw money into your account.**
 22. **A warnings tab within the navigation bar to view the number of warnings, reports, and disputes that must be attended to.**
 23. **Comprehensive functionality for disputing reports and warnings.**
+24. **Fisher-Yates Algorithm to recommend possible users to connect with.**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -133,7 +128,7 @@
   git -v
 ```
 
-1. Please make sure you have Node and npm installed and use Node version: **v16.15.0**. For all other package versions please look at [package.json](https://github.com/GeorgiosIoannouCoder/socialpulse/blob/main/package.json) file.
+1. Please make sure you have Node and npm installed and use Node version: **v16.15.0**. For all other package versions please look at [package.json](https://github.com/jolie-huang/CSC322-Team-W/package.json) file.
     - You can use nvm to switch between different node versions:
       - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
       - Mac: [https://www.youtube.com/watch?v=BhLFxy6Jz8c](https://www.youtube.com/watch?v=BhLFxy6Jz8c)
@@ -157,7 +152,7 @@
 2. Clone this repository
 
    ```sh
-   git clone https://github.com/GeorgiosIoannouCoder/socialpulse.git
+   git clone https://github.com/jolie-huang/CSC322-Team-W.git
    ```
 
 3. Navigate to the socialpulse git repository
@@ -181,11 +176,14 @@
    ***2. Please put your own jwtSecret. It can be anything you like.***
 
    ***3. Please put your own sendGrid_api. You can obtain one by creating an account [here](https://sendgrid.com/en-us).***
+
+   ***4. Please put your own your_cludinary_cloud_name. You can obtain them by creating an account [here](https://cloudinary.com/).***
    
    ```js
     MONGO_URI=your_online_MONGO_URI
     jwtSecret=here_have_a_random_secret_code
     sendGrid_api=api_key_get_it_from_sendgrid
+    CLOUDINARY_CLOUD_NAME=your_cludinary_cloud_name
     ```
 
 6. Create a next.config.js file inside the socialpulse directory
@@ -214,18 +212,26 @@
 
 ## Usage
 
-To try the SocialPulse application click on this [link](https://socialpulse-9a2adcafece8.herokuapp.com/popular)!
+To try the SocialPulse application click on this [link](https://socialpulse-9a2adcafece8.herokuapp.com/)!
 
 You can use the following two accounts to test the application in case that you do not want to register:
 
-1. User
-    - Email: stevejobs@apple.com
-    - Password: stevejobs123
+1. Super User
+    - Email: SuperUser1@gmail.com
+    - Password: SuperUser1!
 
-2. User
-    - Email: billgates@microsoft.com
-    - Password: billgates123
+2. Ordinary User
+    - Email: OrdinaryUser1@gmail.com
+    - Password: OrdinaryUser1!
 
+3. Corporate User
+    - Email: CorporateUser1@gmail.com
+    - Password: CorporateUser1!
+
+3. Trendy User
+    - Email: TrendyUser1@gmail.com
+    - Password: TrendyUser1!
+  
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Contributing
@@ -270,27 +276,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
-
-[contributors-shield]: https://img.shields.io/github/contributors/GeorgiosIoannouCoder/socialpulse.svg?style=for-the-badge
-[contributors-url]: https://github.com/GeorgiosIoannouCoder/socialpulse/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/GeorgiosIoannouCoder/socialpulse.svg?style=for-the-badge
-[forks-url]: https://github.com/GeorgiosIoannouCoder/socialpulse/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/GeorgiosIoannouCoder/socialpulse.svg?style=for-the-badge
-[stars-url]: https://github.com/GeorgiosIoannouCoder/socialpulse/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/GeorgiosIoannouCoder/socialpulse.svg?style=for-the-badge
-[issues-url]: https://github.com/GeorgiosIoannouCoder/socialpulse/issues
-
-[license-shield]: https://img.shields.io/github/license/GeorgiosIoannouCoder/socialpulse.svg?style=for-the-badge
-[license-url]: https://github.com/GeorgiosIoannouCoder/socialpulse/blob/master/LICENSE
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077B5
-[linkedin-url]: https://linkedin.com/in/georgiosioannoucoder
-
-[github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=000
-[github-url]: https://github.com/GeorgiosIoannouCoder/
 
 [Figma]: https://img.shields.io/badge/figma-a259ff?style=for-the-badge&logo=figma&logoColor=1abcfe
 [Figma-url]: https://www.figma.com/
