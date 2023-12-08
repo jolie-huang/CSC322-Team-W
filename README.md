@@ -111,6 +111,14 @@
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
+### Architecture
+
+<div align="center">
+  <img src="architecture.png" alt="Architecture">
+</div>
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 ## Getting Started
 
 **To get a local copy of SocialPulse up and running locally follow these simple example steps:**
