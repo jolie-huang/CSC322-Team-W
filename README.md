@@ -1,11 +1,11 @@
 # CSC322-Team-W
 <a name="readme-top"></a>
 
-# [SocialPulse](https://socialpulse.herokuapp.com/) | Social Media Platform
+# [SocialPulse](https://socialpulse-9a2adcafece8.herokuapp.com/popular) | Social Media Platform
 
 <br />
 <div align="center">
-  <a href="https://socialpulse.herokuapp.com/">
+  <a href="https://socialpulse-9a2adcafece8.herokuapp.com/popular">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -14,14 +14,9 @@
   <p align="center">
     <b>SocialPulse</b> is a <b>Social Media Platform</b> with main purpose to <b>Connect</b> people around the globe. <b>SocialPulse</b> is a social media platform where people can communicate with each other in real-time, create and share posts, and create networks such as group chats with each other. <b>SocialPulse</b> is appealing because it is simple to use without any unnecessary features and thus make it straightforward for the users to <b>Connect</b> with each other. Moreover, the proposed software is special because it implements a real-time chat feature that enables users to chat inside the web application without the need to download any external software such as a messenger.
     <br />
-    <a href="https://github.com/GeorgiosIoannouCoder/socialpulse"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://socialpulse.herokuapp.com/">View Web Application</a>
-    ·
-    <a href="https://github.com/GeorgiosIoannouCoder/socialpulse/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/GeorgiosIoannouCoder/socialpulse/issues">Request Feature</a>
+    <a href="https://socialpulse-9a2adcafece8.herokuapp.com/popular">View Web Application</a>
   </p>
 </div>
 
@@ -52,7 +47,7 @@
 
 ## About The Project
 
-<a href="https://socialpulse.herokuapp.com/">
+<a href="https://socialpulse-9a2adcafece8.herokuapp.com/popular">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -219,7 +214,7 @@
 
 ## Usage
 
-To try the SocialPulse application click on this [link](https://socialpulse.herokuapp.com/)!
+To try the SocialPulse application click on this [link](https://socialpulse-9a2adcafece8.herokuapp.com/popular)!
 
 You can use the following two accounts to test the application in case that you do not want to register:
 
