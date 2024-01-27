@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# [SocialPulse](https://socialpulse-9a2adcafece8.herokuapp.com/) | Social Media Platform
+# [SocialPulse](https://socialpulse-9a2adcafece8.herokuapp.com/) | Social Media Platform 
 
 <br />
 <div align="center">
